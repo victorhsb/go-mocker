@@ -13,10 +13,10 @@ literally you setup `/api/v1/content.yaml` to mock a `/api/v1/content` endpoint)
 
 
 ## TODO
-- [] read from files
-- [] method comes from the file name (`_FILE_._METHOD_.yaml`)
-- [] file path becomes the endpoint prefix
-- [] path parameters 
-- [] use go template to format the response based on the input
-- [] support for relational database (?)
+- [ ] read from files
+- [ ] method comes from the file name (`_FILE_._METHOD_.yaml`)
+- [ ] file path becomes the endpoint prefix
+- [ ] path parameters 
+- [ ] use go template to format the response based on the input
+- [ ] support for relational database (?)
 
