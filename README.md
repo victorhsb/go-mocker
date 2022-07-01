@@ -9,7 +9,7 @@ literally you setup `/api/v1/content.get.yaml` to mock a `GET /api/v1/content` e
 - [ ] naked mode (for running without configuration)
 - [x] read from files
 - [x] method comes from the file name (`_FILE_._METHOD_.yaml`)
-- [ ] file path becomes the endpoint prefix
+- [x] file path becomes the endpoint prefix
 - [ ] path parameters 
 - [ ] use go template to format the response based on the input
 - [ ] support for relational database (?)

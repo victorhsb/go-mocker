@@ -28,7 +28,7 @@ type Output struct {
 	Body       string            `json:"body" yaml:"body"`
 }
 
-func (r *Route) ToModel() (*model.Route, error) {
+func (r *Route) ToModel() *model.Route {
 	out := bytes.NewBuffer([]byte(r.Output.Body))
 	in := bytes.NewBuffer([]byte(r.Input.Body))
 
@@ -51,7 +51,7 @@ func (r *Route) ToModel() (*model.Route, error) {
 		route.Output.Headers.Add(k, v)
 	}
 
-	return route, nil
+	return route
 }
 
 func ToStorage(model *model.Route) *Route {

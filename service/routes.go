@@ -31,7 +31,7 @@ func (s *MockSvc) GetRoutes() ([]*model.Route, error) {
 			}
 			return nil, fmt.Errorf("could not read route %s; %w", f, err)
 		}
-		rts = append(rts, r)
+		rts = append(rts, r.ToModel())
 	}
 
 	return rts, nil
