@@ -13,4 +13,6 @@ literally you setup `/api/v1/content.get.yaml` to mock a `GET /api/v1/content` e
 - [ ] path parameters 
 - [ ] use go template to format the response based on the input
 - [ ] support for relational database (?)
+- [ ] support for conditional responses
+- [ ] support for sequential responses (eg: first one is 200 ok, then 400 then 500)
 
