@@ -1,0 +1,7 @@
+input:
+  headers:
+    - api-key
+output:
+  headers:
+    cache-control: no-cache
+  statusCode: 500

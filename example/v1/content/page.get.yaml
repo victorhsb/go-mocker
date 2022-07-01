@@ -1,0 +1,8 @@
+input:
+  headers:
+    - api-key
+output:
+  body: '<html><h1>page 1</h1></html>'
+  headers:
+    cache-control: no-cache
+  statusCode: 200

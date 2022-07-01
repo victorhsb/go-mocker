@@ -1,0 +1,6 @@
+  input:
+    headers:
+      - api-key
+    body: '{"data": {"content": "string"}}'
+  output:
+    statusCode: 201
