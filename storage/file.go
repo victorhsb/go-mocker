@@ -12,7 +12,6 @@ import (
 
 var (
 	ErrFormatNotSuported = errors.New("this file extension is not supported")
-	ErrWrongFilename     = errors.New("wrong number of parts")
 )
 
 type FileStorage struct {
